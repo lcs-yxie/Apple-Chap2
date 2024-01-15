@@ -45,6 +45,7 @@ struct DayForecast: View {
         }
     }
     
+    //Generalize the day
     var body: some View {
         VStack {
             Text(day)
